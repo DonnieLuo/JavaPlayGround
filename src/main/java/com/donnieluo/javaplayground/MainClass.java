@@ -21,6 +21,7 @@ public class MainClass {
                 right++;
             }
             max = Math.max(max, set.size());
+            set.clear();
         }
 
         return max;
